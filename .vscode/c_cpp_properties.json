@@ -1,0 +1,18 @@
+{
+    "env": {
+      "myDefaultIncludePath": ["${workspaceFolder}"],
+      "myCompilerPath": "/usr/bin/g++"
+    },
+    "configurations": [
+      {
+        "name": "Mac",
+        "includePath": ["${myDefaultIncludePath}"],
+        "compilerPath": "/usr/bin/g++",
+        "browse": {
+          "path": ["${workspaceFolder}/**"],
+          "limitSymbolsToIncludedHeaders": true
+        }
+      }
+    ],
+    "version": 4
+}

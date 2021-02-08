@@ -7,7 +7,8 @@
 			"command": "/usr/bin/g++",
 			"args": [
 				"-g",
-				"${file}",
+				"${workspaceFolder}/HelloWorld/Date/Date.cpp",
+				"${workspaceFolder}/HelloWorld/HelloWorld.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
